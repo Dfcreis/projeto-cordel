@@ -28,6 +28,8 @@ header{
 header h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 4em;
+    font-size: 10vw;
 }
 header > p{
     padding-bottom: 50px;
@@ -42,6 +44,7 @@ a:hover{
 }
 section{
     font-family: var(--fonte3);
+    font-size: 3,5vw;
     padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
