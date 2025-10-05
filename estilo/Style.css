@@ -44,7 +44,7 @@ a:hover{
 }
 section{
     font-family: var(--fonte3);
-    font-size: 3,5vw;
+    font-size: 3vw;
     padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -57,11 +57,25 @@ section.normal{
 section.imagem{
     background-color: rgb(67, 67, 67);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 13px rgba(0, 0, 0, 0.604);
 }
 section.imagem > p{
     background: rgba(0, 0, 0, 0.254);
     display: inline-block;
     padding: 10px;
+}
+section#img01{
+    background-image: url("../imagens/girasol.jpg");
+    background-position: right center;
+
+
+}
+section#img02{
+    background-image: url("../imagens/livros.jpg");
+    
+
 }
 
 
